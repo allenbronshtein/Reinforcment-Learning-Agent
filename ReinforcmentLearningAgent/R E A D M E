@@ -1,0 +1,31 @@
+Name and ID : Allen Bronshtein 206228751
+
+======================IMPORTANT=========================
+    When running a different problem with the agent,
+    Please write in command line : python clean.py
+    This command will make sure to reset the policy file
+    and the qtable file
+========================================================
+
+.py files :
+    agent - The actual agent . Runs either learning or executing as requested
+
+    BFS - Creates the policy
+    clean - Cleans the files in program
+    data - Saves relevant data
+    executer - Executing controller
+    learner - Learning controller
+    math_class - Contains math functions (bellman and max)
+    my_executive - (main)
+    tools - etc
+    (9 total)
+
+Policy file name : POLICYFILE
+The policy is saved in dictionary such as : {state : action, ...}
+The dictionary is saved as a string in POLICYFILE
+
+Qtable file name : QTABLE
+The qtable is saved in dictionary such as : {(state,action):value, ...}
+The dictionary is saved as a string in QTABLE
+
+Total files in program : 11
